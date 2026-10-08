@@ -1,0 +1,11 @@
+{
+  "name": "plc-academy",
+  "version": "1.0.0",
+  "description": "Juego educativo para aprender programación de PLC (Ladder) desde cero",
+  "private": true,
+  "scripts": {
+    "start": "python3 -m http.server 8080",
+    "test": "node tests/run-tests.js"
+  },
+  "license": "MIT"
+}
