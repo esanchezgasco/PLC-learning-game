@@ -1,0 +1,40 @@
+{
+  "name": "studyflow",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "StudyFlow — aplicació d'estudi intel·ligent a partir de PDF",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "start": "node server/server.mjs",
+    "typecheck": "tsc -b",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "make-sample-pdf": "python3 scripts/make_sample_pdf.py"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.133.0",
+    "dexie": "^4.4.6",
+    "dexie-react-hooks": "^1.1.7",
+    "pdfjs-dist": "^4.10.38",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "react-router-dom": "^6.30.6",
+    "tesseract.js": "^5.1.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56",
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/node": "^22.20.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^4.7.0",
+    "fake-indexeddb": "^6.2.5",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^5.9.3",
+    "vite": "^6.4.4",
+    "vitest": "^3.2.7"
+  }
+}
