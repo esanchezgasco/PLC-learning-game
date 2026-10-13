@@ -1,5 +1,7 @@
 # ⚡ PLC Academy — *Learn PLC by doing*
 
+> 📚 **StudyFlow** — aquest repositori també conté, a la carpeta [`studyflow/`](studyflow/README.md), una aplicació d’estudi a partir de PDF (React + TypeScript). Vegeu-ne el README per instal·lar-la i executar-la.
+
 Juego educativo e interactivo para **aprender programación de PLC desde cero**, pensado para personas sin conocimientos previos de automatización.
 
 El jugador avanza por **10 niveles**. En cada uno programa en **Ladder (lenguaje de contactos)** con un editor visual, ejecuta su programa en un **PLC virtual** y controla una **fábrica simulada**: cintas, sensores, cilindros, puertas, depósitos, semáforos…
