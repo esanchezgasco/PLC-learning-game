@@ -19,6 +19,8 @@ export default defineConfig(({ mode }) => {
     },
   };
   return {
+    // mode 'artifact': build amb rutes relatives per publicar-la com a pàgina estàtica
+    base: mode === 'artifact' ? './' : '/',
     plugins: [react(), tailwindcss(), aiPlugin],
     server: { port: 5173 },
     build: { chunkSizeWarningLimit: 2000 },
